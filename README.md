@@ -33,4 +33,5 @@ sudo apt-get install -y nodejs
 ## Install config
 ```
 curl -o ~/.config/lvim/config.lua -L https://raw.githubusercontent.com/ohsirawat/lvim-config/master/config.lua
+lvim +PackerSync
 ```
