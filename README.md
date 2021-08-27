@@ -34,4 +34,8 @@ sudo apt-get install -y nodejs
 ```
 curl -o ~/.config/lvim/config.lua -L https://raw.githubusercontent.com/ohsirawat/lvim-config/master/config.lua
 lvim +PackerSync
+
+# share lvim config with `sudo`
+sudo ln -s ~/.local/share/lunarvim /root/.local/share/lunarvim  
+sudo ln -s ~/.config/lvim  /root/.config/lvim
 ```
